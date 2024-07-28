@@ -272,9 +272,47 @@
     background: var(--navy-blue);
     padding: 100px 0;
   }
+  .footer {
+    background-color: #2e2f42;
+    padding: 100px 0 100px;
+  }
+  .footer .container .logo-header {
+    display: inline-block;
+    margin-bottom: 16px;
+    padding: 0;
+  }
+    .footer-soc-block-header {
+      color: #fff;
+      letter-spacing: 0.02em;
+      font-weight: 500;
+      margin-bottom: 16px;
+    }
+  
+    .footer-text-block {
+      margin-right: 120px;
+    }
+  
+    .footer .container {
+      display: flex;
+      align-items: baseline;
+    }
+  
+    .footer .social-links {
+      gap: 16px;
+    }
+  
+    .footer .social-links .soc-link:hover,
+    .footer .social-links .soc-link:focus {
+      background-color: #31d0aa;
+    }
+    .soc-link-block {
+      
+    }
+    
   .text-footer {
     max-width: 264px;
   }
+
   /* ---Utility--- */
   .visually-hidden {
     position: absolute;
